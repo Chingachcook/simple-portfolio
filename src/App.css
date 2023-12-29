@@ -18,27 +18,20 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.gradient-text {
+  font-size: 48px; /* Large text for h1 */
+  background: linear-gradient(to right, #83e6fa, #1781fd); /* Gradient from red to blue */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Makes the text transparent to show the background */
 }
 
 .site-container {

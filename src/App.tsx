@@ -1,6 +1,5 @@
 import {TypeAnimation} from 'react-type-animation'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import nanoDevTechLogo from '/nanodevtech.svg'
 import './App.css'
 
 function App() {
@@ -10,13 +9,10 @@ function App() {
                 <div className="content">
                     <div>
                         <a href="https://nanodev.tech" target="_blank">
-                            <img src={viteLogo} className="logo" alt="Vite logo"/>
-                        </a>
-                        <a href="https://react.dev" target="_blank">
-                            <img src={reactLogo} className="logo react" alt="React logo"/>
+                            <img src={nanoDevTechLogo} className="logo" alt="NanoDevTech logo"/>
                         </a>
                     </div>
-                    <h1>Nanodev.tech</h1>
+                    <h1 className={'gradient-text'}>Nanodev.tech</h1>
 
                     <TypeAnimation
                         sequence={[
