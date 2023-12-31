@@ -1,5 +1,6 @@
 import {TypeAnimation} from 'react-type-animation'
 import nanoDevTechLogo from '/nanodevtech.svg'
+import {SocialLinks} from "./components";
 import './App.css'
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
                         speed={60}
                         repeat={Infinity}
                     />
+                    <br/>
+                    <SocialLinks/>
                 </div>
                 <footer className="footer">
                     <div>© {new Date().getFullYear()} NanoDev technologies. Made in 🇰🇿 with <span className="heart">❤️</span>.</div>
